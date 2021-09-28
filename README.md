@@ -9,7 +9,7 @@ VPNGateよりOpenVPN接続のための定義ファイルを取得するための
 ```bash
 $ git clone https://github.com/tantan-tanuki/vpngate-clietn.git
 $ cd vpngate-client
-$ poetry init
+$ poetry install
 $ poetry run python vpngate-clietn/main.py
 ```
 
