@@ -29,7 +29,6 @@ def getServerList() -> list:
             tpe = ThreadPoolExecutor(max_workers=20)
             rows = []
             for row in csv_reader:
-                print(row[HOST_NAME] + str(len(row)))
                 if (row[HOST_NAME] != "*") & (len(row) == 15):
                     # 接続確認に時間がかかるのでスレッドプールにて実行
                     tpe.submit(checkConfig, rows, row)
