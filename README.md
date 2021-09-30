@@ -13,6 +13,8 @@ $ poetry install
 $ poetry run python vpngate-clietn/main.py
 ```
 
+https://user-images.githubusercontent.com/80805407/135410818-803c05cc-0592-45da-8f5c-6c9df07846a4.mp4
+
 ## 使い方
 
 起動時に[VPNGateサーバ](https://www.vpngate.net/ja/)からサーバリストを取得し  
